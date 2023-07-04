@@ -101,6 +101,7 @@ img {
 
 .logo-white {
     color: var(--logo-footer-color);
+    margin-bottom: 16px;
 }
 
 .header-menu-nav {
@@ -146,11 +147,10 @@ img {
 
 .hero {
     background-color: var(--main-darck-bg-color);
+    padding: 188px 0;
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
     text-align: center;
 }
 
@@ -178,6 +178,10 @@ img {
     border: none;
     padding: 16px 32px;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -188,8 +192,7 @@ img {
 /* section description */
 
 .description {
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding: 120px 0;
 }
 
 .description-list {
@@ -221,6 +224,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--font-color);
+    margin-bottom: 8px;
 }
 
 .about-description {
@@ -231,7 +235,6 @@ img {
 /* section work */
 
 .work {
-    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -280,7 +283,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .team-position {
@@ -305,10 +308,14 @@ img {
 
 /* section portfolio-content */
 
+.projects {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
-    padding: 96px 0 120px;
 }
 
 .projects-filters-list {
@@ -339,6 +346,7 @@ img {
 .filter-btn:focus {
     color: var(--main-color);
     background-color: var(--accent-bg-color);
+    border: 1px solid transparent;
 }
 
 .projects-list {
