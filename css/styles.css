@@ -99,9 +99,12 @@ img {
     color: var(--font-color);
 }
 
+.footer-logo-link {
+    margin-bottom: 16px;
+}
+
 .logo-white {
     color: var(--logo-footer-color);
-    margin-bottom: 16px;
 }
 
 .header-menu-nav {
